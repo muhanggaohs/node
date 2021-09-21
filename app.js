@@ -1,5 +1,4 @@
-function tambah(a, b) {
-    return a + b;
-}
+const fs = require("fs");
 
-console.log(tambah(10, 2));
+fs.copyFileSync("text.txt", "text2.txt");
+console.log('text.txt was copied to text2.txt');
